@@ -104,29 +104,7 @@ export const testimonials = [
   },
 ];
 
-/*
-  {
-    title: "FilmFusion",
-    link: "https://filmfusion-isr.vercel.app",
-    thumbnail: "/Film.png",
-  },
-  {
-    title: "Momento",
-    link: "https://momento-isr.vercel.app/",
-    thumbnail: "/Momento.png",
-  },
-  {
-    title: "Portfolio",
-    link: "https://syedisrarahmed.vercel.app/",
-    thumbnail: "/Portfolio.png",
-  },
-  {
-    title: "Music-UI project",
-    link: "https://github.com/syed1israr/Acternity_music.git",
-    thumbnail: "/Music.png",
-  },
 
-*/
 export const projects = [
   {
     title: "ConvoConnect",
@@ -143,25 +121,17 @@ export const projects = [
     link: "https://momento-isr.vercel.app/",
     thumbnail: "/Momento.png",
   },
+  //second line
+
   {
     title: "Music-UI project",
     link: "https://github.com/syed1israr/Acternity_music.git",
     thumbnail: "/Music.png",
   },
   {
-    title: "ConvoConnect",
-    link: "https://convoconnect-isr.vercel.app/",
-    thumbnail: "/ConvoConnect.png",
-  },
-  {
-    title: "FilmFusion",
-    link: "https://filmfusion-isr.vercel.app",
-    thumbnail: "/Film.png",
-  },
-  {
-    title: "Momento",
+    title: "Animated Landing Page",
     link: "https://momento-isr.vercel.app/",
-    thumbnail: "/Momento.png",
+    thumbnail: "/Landing-page_animation.png",
   },
   {
     title: "Music-UI project",
@@ -169,19 +139,9 @@ export const projects = [
     thumbnail: "/Music.png",
   },
   {
-    title: "ConvoConnect",
-    link: "https://convoconnect-isr.vercel.app/",
-    thumbnail: "/ConvoConnect.png",
-  },
-  {
-    title: "FilmFusion",
-    link: "https://filmfusion-isr.vercel.app",
-    thumbnail: "/Film.png",
-  },
-  {
-    title: "Momento",
+    title: "Animated Landing Page",
     link: "https://momento-isr.vercel.app/",
-    thumbnail: "/Momento.png",
+    thumbnail: "/Landing-page_animation.png",
   },
   {
     title: "Music-UI project",
@@ -189,19 +149,9 @@ export const projects = [
     thumbnail: "/Music.png",
   },
   {
-    title: "ConvoConnect",
-    link: "https://convoconnect-isr.vercel.app/",
-    thumbnail: "/ConvoConnect.png",
-  },
-  {
-    title: "FilmFusion",
-    link: "https://filmfusion-isr.vercel.app",
-    thumbnail: "/Film.png",
-  },
-  {
-    title: "Momento",
+    title: "Animated Landing Page",
     link: "https://momento-isr.vercel.app/",
-    thumbnail: "/Momento.png",
+    thumbnail: "/Landing-page_animation.png",
   },
 ];
 
