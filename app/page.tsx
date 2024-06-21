@@ -10,6 +10,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { Projects } from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Highlights from "@/components/Highlight";
 
 const Home = () => {
   return (
@@ -18,6 +19,9 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <div className="ml-[-200px]"> 
+          <Highlights />
+        </div>
         <Projects />
         <Clients />
         <Experience />

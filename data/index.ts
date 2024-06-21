@@ -5,6 +5,8 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+
+
 export const gridItems = [
   {
     id: 1,
@@ -237,3 +239,47 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/syed-israr/",
   },
 ];
+
+export const hightlightsSlides = [
+  {
+    id: 1,
+    textLists: [
+      "ConvoConnect",
+      "Minimalistic Chat App",
+      "Made with MERN stack",
+    ],
+    video: "/Convo.mp4",
+    videoDuration: 200,
+  },
+  {
+    id: 2,
+    textLists: ["Titanium.", "So strong. So light. So Pro."],
+    video: "/FilmFusion.mp4",
+    videoDuration: 300,
+  },
+  {
+    id: 3,
+    textLists: [
+      "iPhone 15 Pro Max has the",
+      "longest optical zoom in",
+      "iPhone ever. Far out.",
+    ],
+    video: "/highlightThirdVideo.mp4",
+    videoDuration: 2,
+  },
+  {
+    id: 4,
+    textLists: ["All-new Action button.", "What will yours do?."],
+    video: "/highlightFourthVideo.mp4",
+    videoDuration: 3.63,
+  },
+];
+
+
+export const projectkeImages = {
+  rightImg: "/right.svg",
+  watchImg: "watch.svg",
+  pauseImg: "/pause.svg",
+  playImg : "/play.svg",
+  replayImg: "/replay.svg",
+};
