@@ -154,6 +154,7 @@ const VideoCarousel: React.FC = () => {
             <div className="video-carousel_container">
               <div className="w-full h-full flex-center rounded-3xl overflow-hidden bg-black">
                 <video
+                  autoPlay
                   id="video"
                   playsInline
                   className={`${

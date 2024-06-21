@@ -249,37 +249,21 @@ export const hightlightsSlides = [
       "Made with MERN stack",
     ],
     video: "/Convo.mp4",
-    videoDuration: 200,
+    videoDuration: 500,
   },
   {
     id: 2,
-    textLists: ["Titanium.", "So strong. So light. So Pro."],
+    textLists: ["FilmFusion", "A Movie Catalouge with clean Desgin","Made with React"],
     video: "/FilmFusion.mp4",
-    videoDuration: 300,
-  },
-  {
-    id: 3,
-    textLists: [
-      "iPhone 15 Pro Max has the",
-      "longest optical zoom in",
-      "iPhone ever. Far out.",
-    ],
-    video: "/highlightThirdVideo.mp4",
-    videoDuration: 2,
-  },
-  {
-    id: 4,
-    textLists: ["All-new Action button.", "What will yours do?."],
-    video: "/highlightFourthVideo.mp4",
-    videoDuration: 3.63,
+    videoDuration: 500,
   },
 ];
 
 
 export const projectkeImages = {
-  rightImg: "/right.svg",
-  watchImg: "watch.svg",
+  rightImg: "/link.svg",
+  watchImg: "/git.svg",
   pauseImg: "/pause.svg",
-  playImg : "/play.svg",
+  playImg: "/play.svg",
   replayImg: "/replay.svg",
 };

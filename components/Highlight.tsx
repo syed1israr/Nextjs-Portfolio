@@ -20,16 +20,16 @@ const Highlights: React.FC = () => {
       <div className="screen-max-width">
         <div className="mb-12 w-full md:flex items-end justify-between">
           <h1 id="title" className="section-heading">
-            Projects 
+            Projects
           </h1>
           <div className="flex flex-wrap items-end gap-5">
             <p className="link">
-              Github
+              <a href=" https://github.com/syed1israr">Github</a>
               <img src={watchImg} className="ml-2" alt="Watch the Film" />
             </p>
             <p className="link">
-              LinkedIn
-              <img src={rightImg} className="ml-2" alt="Watch the Event" />
+              <a href="https://www.linkedin.com/in/syed-israr/">LinkedIn</a>
+              <img src={rightImg} className="ml-2" alt="Watch the Event" style={{backgroundColor:"black"}}/>
             </p>
           </div>
         </div>
