@@ -19,9 +19,7 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <div className="ml-[-200px]"> 
-          <Highlights />
-        </div>
+        <Highlights />
         <Projects />
         <Clients />
         <Experience />

@@ -15,7 +15,7 @@ const Highlights: React.FC = () => {
   return (
     <section
       id="highlights"
-      className="w-screen overflow-hidden h-full common-padding bg-zinc"
+      className="w-screen overflow-hidden h-full common-padding bg-zinc ml-[-200px] "
     >
       <div className="screen-max-width">
         <div className="mb-12 w-full md:flex items-end justify-between">
@@ -29,7 +29,12 @@ const Highlights: React.FC = () => {
             </p>
             <p className="link">
               <a href="https://www.linkedin.com/in/syed-israr/">LinkedIn</a>
-              <img src={rightImg} className="ml-2" alt="Watch the Event" style={{backgroundColor:"black"}}/>
+              <img
+                src={rightImg}
+                className="ml-2"
+                alt="Watch the Event"
+                style={{ backgroundColor: "black" }}
+              />
             </p>
           </div>
         </div>
