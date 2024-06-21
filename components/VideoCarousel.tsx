@@ -178,13 +178,6 @@ const VideoCarousel: React.FC = () => {
                   <source src={list.video} type="video/mp4" />
                 </video>
               </div>
-              <div className="absolute top-12 left-[5%] z-10">
-                {list.textLists.map((text, j) => (
-                  <p key={j} className="md:text-2xl text-xl font-medium">
-                    {text}
-                  </p>
-                ))}
-              </div>
             </div>
           </div>
         ))}
