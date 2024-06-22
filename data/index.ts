@@ -240,39 +240,5 @@ export const socialMedia = [
   },
 ];
 
-export const hightlightsSlides = [
-  {
-    id: 1,
-    textLists: [
-      "ConvoConnect",
-      "Minimalistic Chat App",
-      "Made with MERN stack",
-    ],
-    video: "/highlightFirstVideo.mp4",
-    videoDuration: 500,
-  },
-  {
-    id: 2,
-    video: "/highlightSecondVideo.mp4",
-    videoDuration: 500,
-  },
-  {
-    id: 3,
-    video: "/highlightThirdVideo.mp4",
-    videoDuration: 500,
-  },
-  {
-    id: 4,
-    video: "/highlightFourthVideo.mp4",
-    videoDuration: 500,
-  },
-];
 
 
-export const projectkeImages = {
-  rightImg: "/link.svg",
-  watchImg: "/git.svg",
-  pauseImg: "/pause.svg",
-  playImg: "/play.svg",
-  replayImg: "/replay.svg",
-};

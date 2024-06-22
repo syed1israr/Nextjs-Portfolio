@@ -106,13 +106,13 @@ export const Header = () => {
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-[100vw]  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
         The Ultimate <br />
-        Showcase
+        <span className="text-purple">Showcase </span>
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         I am constantly creating and enhancing projects utilizing MERN stack
         technologies. Here is a small collection of my work, with more exciting
         projects on the way! Stay tuned for updates as I continue to explore and
-        innovate in the world of full-stack development.
+        innovate in the world of <span className="text-purple">full-stack development.</span>
       </p>
     </div>
   );
@@ -153,7 +153,7 @@ export const ProductCard = ({
         />
       </Link>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
-      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
+      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-purple">
         {product.title}
       </h2>
     </motion.div>
