@@ -170,7 +170,9 @@ const VideoCarousel: React.FC = () => {
                   } pointer-events-none`}
                   preload="auto"
                   muted
-                  ref={(el) => {videoRef.current[i] = el}}
+                  ref={(el) => {
+                    videoRef.current[i] = el;
+                  }}
                   onEnded={() =>
                     i !== 3
                       ? handleProcess("video-end", i)
@@ -184,29 +186,27 @@ const VideoCarousel: React.FC = () => {
                   <source src={list.video} type="video/mp4" />
                 </video>
               </div>
-              <div className="absolute top-12 left-[5%] z-10">
-                {list.textLists?.map((text, j) => (
-                  <p key={j} className="md:text-2xl text-xl font-medium">
-                    {text}
-                  </p>
-                ))}
-              </div>
+              
             </div>
           </div>
         ))}
       </div>
 
       <div className="relative flex-center mt-10">
-        <div className="flex-center py-5 px-7 bg-gray-300 backdrop-blur rounded-full">
+        <div className="flex-center py-5 px-7 bg-[#0D1329] backdrop-blur rounded-full">
           {videoRef.current.map((_, i) => (
             <span
               key={i}
-              className="mx-2 w-3 h-3 bg-gray-200 rounded-full relative cursor-pointer"
-              ref={(el) => {videoDivRef.current[i] = el}}
+              className="mx-2 w-3 h-3 bg-purple rounded-full relative cursor-pointer"
+              ref={(el) => {
+                videoDivRef.current[i] = el;
+              }}
             >
               <span
                 className="absolute h-full w-full rounded-full"
-                ref={(el) => {videoSpanRef.current[i] = el}}
+                ref={(el) => {
+                  videoSpanRef.current[i] = el;
+                }}
               />
             </span>
           ))}

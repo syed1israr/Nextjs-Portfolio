@@ -145,7 +145,7 @@
   }
 
   .control-btn {
-    @apply ml-4 p-4 rounded-full bg-[#0D1329] backdrop-blur flex-center;
+    @apply ml-4 p-4 rounded-full bg-[#0D1329] backdrop-blur flex-center text-[#000];
   }
 
   .hero-title {
