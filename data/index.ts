@@ -145,16 +145,18 @@ export const projects = [
     link: "https://momento-isr.vercel.app/",
     thumbnail: "/Landing-page_animation.png",
   },
-  {
-    title: "Music-UI project",
-    link: "https://github.com/syed1israr/Acternity_music.git",
-    thumbnail: "/Music.png",
+   {
+    title: "LiveDocs",
+    link: "https://livedocs-isr.vercel.app/",
+    thumbnail: "/LiveDocs.png",
   },
-  {
-    title: "Animated Landing Page",
-    link: "https://momento-isr.vercel.app/",
-    thumbnail: "/Landing-page_animation.png",
+   {
+    title: "3D_iphone",
+    link: "https://3diphoneisr.netlify.app/",
+    thumbnail: "/3D_iphone.png",
   },
+
+
 ];
 
 export const companies = [
